@@ -1,0 +1,79 @@
+@import url(c:\Users\Felip\Documents\WebDesign\portfolio6\src\partials\partials.css);
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  margin-top: 2rem;
+}
+
+.header_titles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header_titles_title {
+  font-size: 6rem;
+  width: 300px;
+  color: #6bc3e9;
+  font-family: "Montagu Slab";
+}
+
+.header_titles_subtitle {
+  position: relative;
+  right: 4rem;
+  top: 2rem;
+  font-family: "Neucha", cursive;
+}
+
+.header_titles_title:hover {
+  color: black;
+  text-decoration: line-through;
+}
+
+.header_titles_subtitle:hover {
+  color: #6bc3e9;
+  text-decoration: line-through;
+}
+
+.header_links {
+  width: 35%;
+  min-width: 490px;
+  max-width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: 2px solid #6bc3e9;
+  border-bottom: 2px solid #6bc3e9;
+  font-family: "Alegreya SC";
+  font-weight: bold;
+  position: relative;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 2rem;
+  position: relative;
+  bottom: 4rem;
+}
+
+.header_links_link {
+  color: #6bc3e9;
+}
+
+.header_links_link:hover {
+  color: black;
+}
+/*# sourceMappingURL=header.css.map */

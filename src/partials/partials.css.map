@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,UAAU;EACR,WAAW,EAAE,cAAc;EAC3B,GAAG,EAAE,yEAA0E;;;AAGjF,UAAU;EACR,WAAW,EAAE,iBAAiB;EAC9B,GAAG,EAAE,gDAAgD;;;AAGvD,UAAU;EACR,WAAW,EAAE,aAAa;EAC1B,GAAG,EAAE,mCAAoC;;;AAG3C,UAAU;EACR,WAAW,EAAE,kBAAkB;EAC/B,GAAG,EAAE,wCAAyC",
+    "sources": [
+        "partials.scss"
+    ],
+    "names": [],
+    "file": "partials.css"
+}
