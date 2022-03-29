@@ -18,7 +18,7 @@ export default function home() {
           <section className="home_rectangle1_title">
             Web Development & Design
           </section>
-          <section className="home_rectangle1_text">
+          <section className="home_rectangle1_text" id="aboutme">
             I have experience in multiple fields with studio environments. I am
             30 and am expanding into Web development using techonologies like,
             JavaScript, Node.js, MySQL, Jquery, CSS, HTML and more.
@@ -52,7 +52,7 @@ export default function home() {
           <div className="home4_rectangle5">
             <a href="mailto:felipevilla.webdev@gmail.com">
               <img className="img4" alt="#" src={img4} />
-              <div className="home4_text">
+              <div className="home4_text" id="contactme">
                 Webdesign/Web Dev Felipevilla.webdev@gmail.com
               </div>
             </a>
