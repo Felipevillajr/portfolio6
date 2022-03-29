@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 export default function portfolio() {
   return (
     <div className="portfolio">
-      <img alt="undercontruction image" src={img7} />
+      <img alt="undercontruction" src={img7} />
       <br></br>
       Under Construction ref to my github
       <a
