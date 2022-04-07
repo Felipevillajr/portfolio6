@@ -7,7 +7,7 @@ import img4 from "../../Assets/images/icons8-email-64.png";
 
 export default function home() {
   return (
-    <>
+    <div className="home__background">
       <div className="home">
         <img
           alt="work desk with laptop computer on top. background is a partially uncovered window"
@@ -59,6 +59,6 @@ export default function home() {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }

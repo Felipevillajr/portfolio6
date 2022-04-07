@@ -14,6 +14,16 @@
   margin-top: 2rem;
 }
 
+.header_logo {
+  width: 300px;
+  height: auto;
+  position: absolute;
+  left: 20%;
+  bottom: 5rem;
+  z-index: -1;
+  background-color: rgba(187, 26, 26, 0);
+}
+
 .header_titles {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -21,6 +31,10 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-image: url(../../Assets/images/felipeweblogo2single.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header_titles_title {
@@ -28,6 +42,7 @@
   width: 300px;
   color: #6bc3e9;
   font-family: "Montagu Slab";
+  background-color: rgba(245, 245, 245, 0);
 }
 
 .header_titles_subtitle {
@@ -35,6 +50,7 @@
   right: 4rem;
   top: 2rem;
   font-family: "Neucha", cursive;
+  background-color: rgba(245, 245, 245, 0);
 }
 
 .header_titles_title:hover {

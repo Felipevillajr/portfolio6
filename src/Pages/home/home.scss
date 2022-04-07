@@ -1,3 +1,10 @@
+// .home__background {
+//   background-image: url(../../Assets/images/felipeweblogoWP.png);
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+// }
+
 .home {
   color: black;
   margin-left: 20rem;
@@ -11,13 +18,17 @@
   &_img1 {
     width: 30%;
   }
-  &_img1:hover {
-    border: solid 0.2rem #ecfefe;
-  }
+  // &_img1:hover {
+  //   border: solid 0.2rem #ecfefe;
+  // }
   &_rectangle1 {
     width: 380px;
     height: 300px;
-    background-color: #ffffff;
+    background-color: rgb(255, 255, 255);
+    // background-image: url(../../Assets/images/felipeweblogo2single.png);
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
     position: relative;
     left: 8rem;
     &_title {
@@ -85,13 +96,16 @@
     flex-direction: row;
     width: 1000px;
     height: 400px;
-    background-color: #ffffff;
+    background-image: url(../../Assets/images/felipeweblogoWP.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     &_text {
       background-color: rgba(0, 0, 0, 0);
       position: relative;
       left: 8rem;
-      font-size: 2rem;
+      font-size: 3rem;
       font-family: "Neucha", cursive;
     }
   }
@@ -102,9 +116,9 @@
   position: relative;
   left: 2rem;
 }
-.img2:hover {
-  border: solid 0.2rem #ecfefe;
-}
+// .img2:hover {
+//   border: solid 0.2rem #ecfefe;
+// }
 
 .img3 {
   background-color: #ffffff00;
@@ -130,7 +144,11 @@
   &_rectangle5 {
     width: 300px;
     height: 100px;
-    background-color: #ffffff;
+    background-color: white;
+    background-image: url(../../Assets/images/felipeweblogo2single.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     left: 15rem;
     top: 2rem;

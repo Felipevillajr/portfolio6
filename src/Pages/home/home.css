@@ -19,14 +19,10 @@
   width: 30%;
 }
 
-.home_img1:hover {
-  border: solid 0.2rem #ecfefe;
-}
-
 .home_rectangle1 {
   width: 380px;
   height: 300px;
-  background-color: #ffffff;
+  background-color: white;
   position: relative;
   left: 8rem;
 }
@@ -119,7 +115,10 @@
           flex-direction: row;
   width: 1000px;
   height: 400px;
-  background-color: #ffffff;
+  background-image: url(../../Assets/images/felipeweblogoWP.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
 }
 
@@ -127,7 +126,7 @@
   background-color: rgba(0, 0, 0, 0);
   position: relative;
   left: 8rem;
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: "Neucha", cursive;
 }
 
@@ -135,10 +134,6 @@
   width: 35rem;
   position: relative;
   left: 2rem;
-}
-
-.img2:hover {
-  border: solid 0.2rem #ecfefe;
 }
 
 .img3 {
@@ -174,7 +169,11 @@
 .home4_rectangle5 {
   width: 300px;
   height: 100px;
-  background-color: #ffffff;
+  background-color: white;
+  background-image: url(../../Assets/images/felipeweblogo2single.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   left: 15rem;
   top: 2rem;

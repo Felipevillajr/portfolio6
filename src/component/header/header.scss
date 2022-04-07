@@ -1,5 +1,14 @@
 @import "../../partials/partials.css";
 
+// .bg {
+//   background-image: url(../../Assets/images/felipeweblogoWP.png);
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   height: 10rem;
+//   width: 100%;
+// }
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -7,21 +16,38 @@
   margin-left: 20rem;
   margin-right: 20rem;
   margin-top: 2rem;
+
+  &_logo {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    left: 20%;
+    bottom: 5rem;
+    z-index: -1;
+    background-color: rgba(187, 26, 26, 0);
+  }
+
   &_titles {
     display: flex;
     align-items: center;
+    background-image: url(../../Assets/images/felipeweblogo2single.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     &_title {
       font-size: 6rem;
       width: 300px;
       color: #6bc3e9;
       font-family: "Montagu Slab";
+      background-color: rgba(245, 245, 245, 0);
     }
     &_subtitle {
       position: relative;
       right: 4rem;
       top: 2rem;
       font-family: "Neucha", cursive;
+      background-color: rgba(245, 245, 245, 0);
     }
     &_title:hover {
       color: black;
