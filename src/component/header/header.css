@@ -42,11 +42,6 @@
   text-decoration: line-through;
 }
 
-.header_titles_subtitle:hover {
-  color: #6bc3e9;
-  text-decoration: line-through;
-}
-
 .header_links {
   width: 35%;
   min-width: 490px;
