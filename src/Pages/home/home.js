@@ -19,8 +19,8 @@ export default function home() {
             Web Development & Design
           </section>
           <section className="home_rectangle1_text" id="aboutme">
-            I have experience in multiple fields with studio environments. I am
-            30 and am expanding into Web development using techonologies like,
+            I have experience in multiple fields with studio like environments
+            and am expanding into Web development using techonologies like,
             JavaScript, Node.js, MySQL, Jquery, CSS, HTML and more.
           </section>
         </div>
