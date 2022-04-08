@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./header.css";
-import logo from "../../Assets/images/felipeweblogo2single.png";
+// import logo from "../../Assets/images/felipeweblogo2single.png";
 
 export default function header() {
   return (
