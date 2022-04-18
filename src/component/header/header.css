@@ -31,17 +31,13 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url(../../Assets/images/felipeweblogo2single.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .header_titles_title {
   font-size: 6rem;
   width: 300px;
   color: #6bc3e9;
-  font-family: "Montagu Slab";
+  font-family: "Montagu Slab", "arial";
   background-color: rgba(245, 245, 245, 0);
 }
 

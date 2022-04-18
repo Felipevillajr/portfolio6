@@ -18,3 +18,13 @@ a:hover {
   color: #6bc3e9;
   text-decoration: line-through;
 }
+
+.aboutme {
+  margin-left: 20rem;
+  margin-right: 20rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
