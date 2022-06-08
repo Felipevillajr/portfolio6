@@ -18,9 +18,9 @@ export default function header() {
           {/* <a className="header_links_link" href="#contactme">
             ContactMe
           </a> */}
-          <a className="header_links_link2" href="/aboutme">
+          <Link className="header_links_link2" to="/aboutme">
             AboutMe
-          </a>
+          </Link>
           <Link className="header_links_link" to="/portfolio">
             Projects
           </Link>
