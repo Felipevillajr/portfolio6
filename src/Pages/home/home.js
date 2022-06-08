@@ -20,8 +20,6 @@ export default function home() {
             Web Development & Design
           </section>
           <section className="home_rectangle1_text" id="aboutme">
-            I have experience in multiple fields with studio like environments
-            using these tools:
             <ul className="home_rectangle1_text_list">
               <li>JavaScript</li>
               <li>Node.js</li>
