@@ -42,7 +42,9 @@
 }
 
 .header_titles_subtitle {
+  font-size: 1.2rem;
   position: relative;
+  min-width: 17rem;
   right: 4rem;
   top: 2rem;
   font-family: "Neucha", cursive;
@@ -61,9 +63,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   border-top: 2px solid #6bc3e9;
   border-bottom: 2px solid #6bc3e9;
   font-family: "Alegreya SC";

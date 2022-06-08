@@ -43,7 +43,9 @@
       background-color: rgba(245, 245, 245, 0);
     }
     &_subtitle {
+      font-size: 1.2rem;
       position: relative;
+      min-width: 17rem;
       right: 4rem;
       top: 2rem;
       font-family: "Neucha", cursive;
@@ -63,7 +65,7 @@
     min-width: 490px;
     max-width: 500px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     border-top: 2px solid #6bc3e9;
     border-bottom: 2px solid #6bc3e9;
     font-family: "Alegreya SC";

@@ -1,3 +1,7 @@
+.home__background {
+  background-color: rgba(0, 0, 0, 0);
+}
+
 .home {
   color: black;
   margin-left: 20rem;
@@ -12,18 +16,21 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-bottom: 2rem;
 }
 
 .home_img1 {
-  width: 30%;
+  width: 16rem;
+  border: 5px solid black;
+  margin-bottom: 2rem;
 }
 
 .home_rectangle1 {
-  width: 380px;
+  width: 40rem;
   height: 300px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0);
   position: relative;
-  left: 8rem;
+  left: 7rem;
 }
 
 .home_rectangle1_title {
@@ -37,7 +44,7 @@
 .home_rectangle1_text {
   background-color: rgba(0, 0, 0, 0);
   position: relative;
-  top: 3rem;
+  top: 0rem;
   left: 6rem;
   text-align: center;
 }
@@ -46,7 +53,7 @@
   color: black;
   margin-left: 20rem;
   margin-right: 20rem;
-  margin-top: 5rem;
+  margin-top: 7rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -59,19 +66,20 @@
 }
 
 .home2_rectangle2 {
-  width: 50rem;
+  width: 60rem;
   height: 15rem;
   background-color: #ecfefe;
   position: relative;
   right: 0rem;
   bottom: 5rem;
+  border: 5px solid black;
 }
 
 .home2_rectangle2_text_text {
   background-color: rgba(0, 0, 0, 0);
   position: relative;
-  left: 4rem;
-  top: 10rem;
+  left: 2rem;
+  top: 5rem;
   width: 60rem;
   font-size: 1.4rem;
 }
@@ -80,7 +88,7 @@
   background-color: rgba(0, 0, 0, 0);
   position: relative;
   left: 5rem;
-  top: 12rem;
+  top: 6rem;
   text-align: center;
 }
 
@@ -118,6 +126,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  background-color: #ecfefe;
+  border: 5px solid black;
 }
 
 .home3_rectangle3_text {
@@ -151,9 +161,12 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 3rem;
+  margin-top: 0rem;
   font-family: "Neucha", cursive;
-  margin-bottom: 5rem;
+  margin-bottom: 0rem;
+  background-color: #ecfefe;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .home4_rectangle4 {
@@ -162,6 +175,7 @@
   background-color: #ecfefe;
   position: relative;
   right: 10rem;
+  border: 5px solid black;
 }
 
 .home4_rectangle5 {

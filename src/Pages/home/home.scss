@@ -1,9 +1,6 @@
-// .home__background {
-//   background-image: url(../../Assets/images/felipeweblogoWP.png);
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   background-size: cover;
-// }
+.home__background {
+  background-color: rgba(0, 0, 0, 0);
+}
 
 .home {
   color: black;
@@ -13,24 +10,28 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 2rem;
   // font-family: "Neucha", cursive;
 
   &_img1 {
-    width: 30%;
+    width: 16rem;
+    border: 5px solid black;
+    margin-bottom: 2rem;
   }
   // &_img1:hover {
   //   border: solid 0.2rem #ecfefe;
   // }
   &_rectangle1 {
-    width: 380px;
+    width: 40rem;
     height: 300px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
     // background-image: url(../../Assets/images/felipeweblogo2single.png);
     // background-position: center;
     // background-repeat: no-repeat;
     // background-size: cover;
     position: relative;
-    left: 8rem;
+    left: 7rem;
+
     &_title {
       background-color: rgba(0, 0, 0, 0);
       width: 30%;
@@ -41,7 +42,7 @@
     &_text {
       background-color: rgba(0, 0, 0, 0);
       position: relative;
-      top: 3rem;
+      top: 0rem;
       left: 6rem;
       text-align: center;
     }
@@ -51,24 +52,25 @@
   color: black;
   margin-left: 20rem;
   margin-right: 20rem;
-  margin-top: 5rem;
+  margin-top: 7rem;
   display: flex;
   justify-content: center;
   align-items: center;
   &_rectangle2 {
-    width: 50rem;
+    width: 60rem;
     height: 15rem;
     background-color: #ecfefe;
     position: relative;
     right: 0rem;
     bottom: 5rem;
+    border: 5px solid black;
     // font-family: "PlayFair Display";
 
     &_text_text {
       background-color: rgba(0, 0, 0, 0);
       position: relative;
-      left: 4rem;
-      top: 10rem;
+      left: 2rem;
+      top: 5rem;
       width: 60rem;
       font-size: 1.4rem;
     }
@@ -77,7 +79,7 @@
       background-color: rgba(0, 0, 0, 0);
       position: relative;
       left: 5rem;
-      top: 12rem;
+      top: 6rem;
       text-align: center;
     }
   }
@@ -101,6 +103,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    background-color: #ecfefe;
+    border: 5px solid black;
     &_text {
       background-color: rgba(0, 0, 0, 0);
       position: relative;
@@ -131,15 +135,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 3rem;
+  margin-top: 0rem;
   font-family: "Neucha", cursive;
-  margin-bottom: 5rem;
+  margin-bottom: 0rem;
+  background-color: #ecfefe;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   &_rectangle4 {
     width: 300px;
     height: 100px;
     background-color: #ecfefe;
     position: relative;
     right: 10rem;
+    border: 5px solid black;
   }
   &_rectangle5 {
     width: 300px;

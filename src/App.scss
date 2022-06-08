@@ -1,7 +1,7 @@
 * {
   margin: 0;
   // overflow-x: hidden;
-  background-color: #f0f0f0;
+  background-color: #f0f0f000;
   box-sizing: border-box;
   position: relative;
   z-index: -5;
@@ -17,6 +17,10 @@ a {
 a:hover {
   color: #6bc3e9;
   text-decoration: line-through;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .aboutme {

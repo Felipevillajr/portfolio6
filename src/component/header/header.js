@@ -15,13 +15,13 @@ export default function header() {
           <h3 className="header_titles_subtitle">Web Developer | Front End</h3>
         </div>
         <div className="header_links">
-          <a className="header_links_link" href="#contactme">
+          {/* <a className="header_links_link" href="#contactme">
             ContactMe
-          </a>
+          </a> */}
           <a className="header_links_link2" href="/aboutme">
             AboutMe
           </a>
-          <Link className="header_links_link2" to="/portfolio">
+          <Link className="header_links_link" to="/portfolio">
             Projects
           </Link>
         </div>
