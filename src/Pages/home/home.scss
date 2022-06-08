@@ -15,7 +15,7 @@
 
   &_img1 {
     width: 16rem;
-    border: 5px solid black;
+    border: 5px solid #5ed2ec;
     margin-bottom: 2rem;
   }
   // &_img1:hover {
@@ -38,12 +38,14 @@
       position: relative;
       right: 2rem;
       font-size: 24px;
+      border-bottom: 2px solid #5ed2ec;
+      margin-bottom: 1rem;
     }
     &_text {
       background-color: rgba(0, 0, 0, 0);
       position: relative;
       top: 0rem;
-      left: 6rem;
+      left: 0rem;
       text-align: center;
     }
   }
@@ -63,7 +65,7 @@
     position: relative;
     right: 0rem;
     bottom: 5rem;
-    border: 5px solid black;
+    border: 5px solid #5ed2ec;
     // font-family: "PlayFair Display";
 
     &_text_text {
@@ -104,7 +106,7 @@
     background-size: cover;
     position: relative;
     background-color: #ecfefe;
-    border: 5px solid black;
+    border: 5px solid #5ed2ec;
     &_text {
       background-color: rgba(0, 0, 0, 0);
       position: relative;
@@ -118,7 +120,9 @@
 .img2 {
   width: 35rem;
   position: relative;
-  left: 2rem;
+  top: 2rem;
+  left: 3rem;
+  border: 5px solid #5ed2ec;
 }
 // .img2:hover {
 //   border: solid 0.2rem #ecfefe;
@@ -147,7 +151,7 @@
     background-color: #ecfefe;
     position: relative;
     right: 10rem;
-    border: 5px solid black;
+    border: 5px solid #5ed2ec;
   }
   &_rectangle5 {
     width: 300px;
@@ -162,6 +166,8 @@
     top: 2rem;
     display: flex;
     align-items: center;
+    border-bottom: 2px solid #5ed2ec;
+    border-right: 2px solid #5ed2ec;
   }
   &_text {
     background-color: #ffffff00;

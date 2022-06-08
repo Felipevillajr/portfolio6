@@ -22,7 +22,7 @@ export default function home() {
           <section className="home_rectangle1_text" id="aboutme">
             I have experience in multiple fields with studio like environments
             using these tools:
-            <ul>
+            <ul className="home_rectangle1_text_list">
               <li>JavaScript</li>
               <li>Node.js</li>
               <li>MySQL</li>
