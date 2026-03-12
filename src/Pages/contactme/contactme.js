@@ -1,22 +1,52 @@
 import React from "react";
+import "./contactme.css";
+import { PageMeta } from "../../components/PageMeta/PageMeta";
 
 export default function contactme() {
   return (
-    <div className="aboutme">
-      <br/>
-      <h1>Felipe Villa</h1>
-      <br/>
-      <h3>
-        I am new to the tech scene and looking for oppertunities. I enjoy Web
-        design and learning new technologies. Resently I have been learning
-        Three.js and becoming familar with the new Web3 model. I was trained in
-        the use of React.js with a focus on Node as the basis of my
-        webdevelopment.
-      </h3>
-      <br/>
-      <h3> Please visit my Github for more on code I have worked on</h3>
-      <br/>
-      <a href="https://github.com/Felipevillajr"><h3>GitHub Link!</h3></a>
+    <div className="aboutPage">
+      <PageMeta
+        title="About"
+        description="About Felipe Villa — web developer. React, Node, and modern front-end. Building clean UIs and learning new tech."
+        path="/aboutme"
+      />
+      <div className="container">
+        <header className="aboutPage__header">
+          <h1 className="aboutPage__title">About</h1>
+          <p className="aboutPage__subtitle">
+            A little story about how I got into building for the web.
+          </p>
+        </header>
+
+        <div className="aboutCard">
+          <p className="aboutCard__p">
+            I’m Felipe Villa—newer to the tech scene and actively building
+            projects to grow my skills. I enjoy web design, learning new
+            technologies, and turning ideas into clean, usable interfaces.
+          </p>
+          <p className="aboutCard__p">
+            Recently I’ve been exploring Three.js and modern front-end tooling.
+            I trained with React and have experience using Node as a foundation
+            for web development.
+          </p>
+          <div className="aboutCard__actions">
+            <a
+              className="btn btnSecondary"
+              href="https://github.com/Felipevillajr"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Visit my GitHub <span className="srOnly">(opens in new tab)</span>
+            </a>
+            <a
+              className="btn btnPrimary"
+              href="mailto:felipevilla.webdev@gmail.com?subject=Hello%20Felipe"
+            >
+              Email me
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

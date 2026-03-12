@@ -1,0 +1,41 @@
+.aboutPage__header {
+  padding: var(--space-6) 0 var(--space-4) 0;
+}
+
+.aboutPage__title {
+  margin: 0;
+  font-size: clamp(1.8rem, 1.2rem + 2vw, 2.6rem);
+  letter-spacing: -0.03em;
+}
+
+.aboutPage__subtitle {
+  margin: var(--space-2) 0 0 0;
+  color: var(--muted);
+  max-width: 70ch;
+}
+
+.aboutCard {
+  border: 1px solid #2DD4BF;
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+  background: color-mix(in srgb, var(--surface) 70%, transparent);
+  box-shadow: var(--shadow-sm);
+}
+
+.aboutCard__p {
+  margin: 0;
+  color: var(--muted);
+  max-width: 75ch;
+}
+
+.aboutCard__p + .aboutCard__p {
+  margin-top: var(--space-3);
+}
+
+.aboutCard__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-top: var(--space-5);
+}
+

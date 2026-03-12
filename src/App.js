@@ -6,17 +6,24 @@ import Footer from "./component/footer/footer";
 import Home from "./Pages/home/home.js";
 import Portfolio from "./Pages/portfolio/portfolio";
 import Aboutme from "./Pages/contactme/contactme";
+import { useTheme } from "./hooks/useTheme";
 
 export default function App() {
+  const { theme, toggleTheme } = useTheme();
+
   return (
     <BrowserRouter>
-      <Header />
-      <Routes>
-        <Route exact path="/" element={<Home />}></Route>
-        <Route exact path="/portfolio" element={<Portfolio />}></Route>
-        <Route exact path="/aboutme" element={<Aboutme />}></Route>
-      </Routes>
-      <Footer />
+      <div className="appShell">
+        <Header theme={theme} onToggleTheme={toggleTheme} />
+        <main id="main" className="appMain">
+          <Routes>
+            <Route exact path="/" element={<Home />}></Route>
+            <Route exact path="/portfolio" element={<Portfolio />}></Route>
+            <Route exact path="/aboutme" element={<Aboutme />}></Route>
+          </Routes>
+        </main>
+        <Footer />
+      </div>
     </BrowserRouter>
   );
 }

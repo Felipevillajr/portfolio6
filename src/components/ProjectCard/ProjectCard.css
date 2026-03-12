@@ -1,0 +1,63 @@
+.projectCard {
+  border: 1px solid #2DD4BF;
+  background: color-mix(in srgb, var(--surface) 70%, transparent);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  transition: transform 140ms ease, box-shadow 140ms ease, border-color 140ms ease;
+}
+
+.projectCard:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: color-mix(in srgb, var(--accent) 35%, var(--border));
+}
+
+.projectCard__title {
+  margin: 0;
+  font-size: 1.15rem;
+  letter-spacing: -0.01em;
+}
+
+.projectCard__desc {
+  margin: var(--space-2) 0 0 0;
+  color: var(--muted);
+}
+
+.projectCard__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.projectCard__tag {
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.projectCard__actions {
+  margin-top: auto;
+}
+
+.projectCard__link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: var(--bg);
+  text-decoration: none;
+}
+
+.projectCard__link:hover {
+  border-color: color-mix(in srgb, var(--accent) 45%, var(--border));
+}
+

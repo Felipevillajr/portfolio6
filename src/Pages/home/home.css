@@ -1,219 +1,195 @@
-.home__background {
-  background-color: rgba(0, 0, 0, 0);
+.homeHero {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: var(--space-6);
+  align-items: center;
+  padding: var(--space-7) 0 var(--space-6) 0;
 }
 
-.home {
-  color: black;
-  margin-left: 20rem;
-  margin-right: 20rem;
-  margin-top: 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
+.homeHero__eyebrow {
+  margin: 0 0 var(--space-2) 0;
+  color: var(--muted);
+}
+
+.homeHero__title {
+  margin: 0;
+  font-size: clamp(2.1rem, 1.4rem + 3vw, 3.4rem);
+  letter-spacing: -0.04em;
+  line-height: 1.08;
+}
+
+.homeHero__lead {
+  margin: var(--space-4) 0 0 0;
+  color: var(--muted);
+  max-width: 62ch;
+}
+
+.homeHero__cta {
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-bottom: 2rem;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-top: var(--space-5);
 }
 
-.home_img1 {
-  width: 16rem;
-  border: 5px solid #5ed2ec;
-  margin-bottom: 2rem;
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  padding: 12px 14px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  text-decoration: none;
+  font-weight: 600;
 }
 
-.home_rectangle1 {
-  width: 40rem;
-  height: 300px;
-  background-color: rgba(255, 255, 255, 0);
-  position: relative;
-  left: 7rem;
+.btnPrimary {
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--accent) 90%, white),
+    var(--accent)
+  );
+  color: var(--accent-contrast);
+  border-color: color-mix(in srgb, var(--accent) 55%, var(--border));
 }
 
-.home_rectangle1_title {
-  background-color: rgba(0, 0, 0, 0);
-  width: 30%;
-  position: relative;
-  right: 2rem;
-  font-size: 24px;
-  border-bottom: 2px solid #5ed2ec;
-  margin-bottom: 1rem;
+.btnPrimary:hover {
+  filter: brightness(1.02);
+  color: var(--accent-contrast);
 }
 
-.home_rectangle1_text {
-  background-color: rgba(0, 0, 0, 0);
-  position: relative;
-  top: 0rem;
-  left: 0rem;
-  text-align: center;
+.btnSecondary {
+  background: var(--surface);
+  color: var(--text);
 }
 
-.home2 {
-  color: black;
-  margin-left: 20rem;
-  margin-right: 20rem;
-  margin-top: 7rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
+.btnSecondary:hover {
+  border-color: color-mix(in srgb, var(--accent) 45%, var(--border));
+  color: var(--text);
+}
+
+.heroCard {
+  border-radius: var(--radius-lg);
+  border: 1px solid #2DD4BF;
+  background: color-mix(in srgb, var(--surface) 70%, transparent);
+  box-shadow: var(--shadow-md);
+  overflow: hidden;
+}
+
+.heroCard__top {
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-3);
+  border-bottom: 1px solid var(--border);
 }
 
-.home2_rectangle2 {
-  width: 60rem;
-  height: 15rem;
-  background-color: #ecfefe;
-  position: relative;
-  right: 0rem;
-  bottom: 5rem;
-  border: 5px solid #5ed2ec;
+.heroCard__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--accent) 60%, var(--border));
 }
 
-.home2_rectangle2_text_text {
-  background-color: rgba(0, 0, 0, 0);
-  position: relative;
-  left: 2rem;
-  top: 5rem;
-  width: 60rem;
+.heroCard__content {
+  padding: var(--space-5);
+  display: grid;
+  gap: var(--space-3);
+}
+
+.heroCard__line {
+  height: 12px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--muted) 20%, transparent);
+}
+
+.heroCard__lineShort {
+  width: 65%;
+}
+
+.homeSection {
+  padding: var(--space-6) 0;
+}
+
+.homeSection__header {
+  margin-bottom: var(--space-4);
+}
+
+.homeSection__title {
+  margin: 0;
   font-size: 1.4rem;
+  letter-spacing: -0.02em;
 }
 
-.home2_rectangle2_author_text {
-  background-color: rgba(0, 0, 0, 0);
-  position: relative;
-  left: 5rem;
-  top: 6rem;
-  text-align: center;
+.homeSection__subtitle {
+  margin: var(--space-2) 0 0 0;
+  color: var(--muted);
+  max-width: 70ch;
 }
 
-.home3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.homeGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-4);
+}
+
+.skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-4);
+}
+
+.skillCard {
+  border: 1px solid #2DD4BF;
+  border-radius: var(--radius-lg);
+  background: color-mix(in srgb, var(--surface) 70%, transparent);
+  padding: var(--space-5);
+  box-shadow: var(--shadow-sm);
+}
+
+.skillCard__title {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.skillCard__body {
+  margin: var(--space-2) 0 0 0;
+  color: var(--muted);
+}
+
+.contactCard {
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-5);
+  border: 1px solid #2DD4BF;
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+  background: color-mix(in srgb, var(--surface) 70%, transparent);
+  box-shadow: var(--shadow-sm);
 }
 
-.home3_rectangle3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  width: 1000px;
-  height: 400px;
-  background-image: url(../../Assets/images/felipeweblogoWP.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  background-color: #ecfefe;
-  border: 5px solid #5ed2ec;
+.contactCard__title {
+  margin: 0;
 }
 
-.home3_rectangle3_text {
-  background-color: rgba(0, 0, 0, 0);
-  position: relative;
-  left: 8rem;
-  font-size: 3rem;
-  font-family: "Neucha", cursive;
+.contactCard__body {
+  margin: var(--space-2) 0 0 0;
+  color: var(--muted);
+  max-width: 60ch;
 }
 
-.img2 {
-  width: 35rem;
-  position: relative;
-  top: 2rem;
-  left: 3rem;
-  border: 5px solid #5ed2ec;
+@media (max-width: 900px) {
+  .homeHero {
+    grid-template-columns: 1fr;
+  }
+  .homeGrid {
+    grid-template-columns: 1fr;
+  }
+  .skillsGrid {
+    grid-template-columns: 1fr;
+  }
+  .contactCard {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
-
-.img3 {
-  background-color: #ffffff00;
-  position: relative;
-  top: 10rem;
-  right: 5rem;
-}
-
-.home4 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: 0rem;
-  font-family: "Neucha", cursive;
-  margin-bottom: 0rem;
-  background-color: #ecfefe;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
-.home4_rectangle4 {
-  width: 300px;
-  height: 100px;
-  background-color: #ecfefe;
-  position: relative;
-  right: 10rem;
-  border: 5px solid #5ed2ec;
-}
-
-.home4_rectangle5 {
-  width: 300px;
-  height: 100px;
-  background-color: white;
-  background-image: url(../../Assets/images/felipeweblogo2single.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  left: 15rem;
-  top: 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border-bottom: 2px solid #5ed2ec;
-  border-right: 2px solid #5ed2ec;
-}
-
-.home4_text {
-  background-color: #ffffff00;
-  position: relative;
-  bottom: 3.8rem;
-  right: 3rem;
-}
-
-.img4 {
-  width: auto;
-  position: relative;
-  right: 10rem;
-  background-color: #ffffff00;
-}
-/*# sourceMappingURL=home.css.map */

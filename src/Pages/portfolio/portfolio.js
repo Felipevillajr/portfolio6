@@ -1,36 +1,31 @@
 import React from "react";
 import "./portfolio.css";
-// import img6 from "../../Assets/images/github.png";
-// import img7 from "../../Assets/images/undercontruction.png";
-// import { Link } from "react-router-dom";
+import { projects } from "../../data/projects";
+import { ProjectCard } from "../../components/ProjectCard/ProjectCard";
+import { PageMeta } from "../../components/PageMeta/PageMeta";
 
 export default function portfolio() {
   return (
-    <div className="portfolio">
-      <ul>
-        <li className="portfolio__card">
-          <a
-            alt="link to felipe's github"
-            href="https://github.com/Felipevillajr"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h1>My Github</h1>
-            <h3>Repo of my latest work</h3>
-          </a>
-        </li>
-        <li>
-          <a
-            alt="link to LFG forums"
-            href="https://pacific-retreat-51764.herokuapp.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h1>BrainStation Final Project</h1>
-            <h3>a forum style site using Node and Mysql</h3>
-          </a>
-        </li>
-      </ul>
+    <div className="portfolioPage">
+      <PageMeta
+        title="Projects"
+        description="A selection of projects by Felipe Villa — web apps, demos, and code on GitHub."
+        path="/portfolio"
+      />
+      <div className="container">
+        <header className="portfolioPage__header">
+          <h1 className="portfolioPage__title">Projects</h1>
+          <p className="portfolioPage__subtitle">
+            A small selection of things I’ve built and shipped.
+          </p>
+        </header>
+
+        <section aria-label="Project list" className="portfolioGrid">
+          {projects.map((p) => (
+            <ProjectCard key={p.title} {...p} />
+          ))}
+        </section>
+      </div>
     </div>
   );
 }
