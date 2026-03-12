@@ -16,6 +16,8 @@ export const projects = [
     description:
       "Generate secure passwords quickly with adjustable options in a clean, fast interface.",
     href: "https://github.com/Felipevillajr/passwordgen001",
+    liveHref: "https://brainstationcapstonevilladev.netlify.app",
+    liveLabel: "Live Demo",
     tags: ["Node.js", "Vite", "Capacitor"],
   },
 ];

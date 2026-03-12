@@ -1,7 +1,14 @@
 import React from "react";
 import "./ProjectCard.css";
 
-export function ProjectCard({ title, description, href, tags = [] }) {
+export function ProjectCard({
+  title,
+  description,
+  href,
+  liveHref,
+  liveLabel = "Live Demo",
+  tags = [],
+}) {
   return (
     <article className="projectCard">
       <div className="projectCard__top">
@@ -26,8 +33,18 @@ export function ProjectCard({ title, description, href, tags = [] }) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Visit <span className="srOnly">(opens in new tab)</span>
+          View Code <span className="srOnly">(opens in new tab)</span>
         </a>
+        {liveHref ? (
+          <a
+            className="projectCard__link projectCard__linkPrimary"
+            href={liveHref}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {liveLabel} <span className="srOnly">(opens in new tab)</span>
+          </a>
+        ) : null}
       </div>
     </article>
   );

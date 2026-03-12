@@ -63,7 +63,7 @@ export default function home() {
           </header>
 
           <div className="homeGrid">
-            {projects.slice(0, 2).map((p) => (
+            {projects.slice(0, 3).map((p) => (
               <ProjectCard key={p.title} {...p} />
             ))}
           </div>
