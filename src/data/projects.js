@@ -20,5 +20,12 @@ export const projects = [
     liveLabel: "Live Demo",
     tags: ["Node.js", "Vite", "Capacitor"],
   },
+  {
+    title: "Terminal News Reader",
+    description:
+      "A terminal-first news scraper and reader with source management, article search, and interactive browsing.",
+    href: "https://github.com/Felipevillajr/newscrapperapp",
+    tags: ["Python", "Typer", "Rich", "Textual"],
+  },
 ];
 

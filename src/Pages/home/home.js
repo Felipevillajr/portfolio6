@@ -6,6 +6,11 @@ import { ProjectCard } from "../../components/ProjectCard/ProjectCard";
 import { PageMeta } from "../../components/PageMeta/PageMeta";
 
 export default function home() {
+  const featuredProjects = projects.filter(
+    (p) =>
+      p.title === "Free Password Generator" || p.title === "Terminal News Reader"
+  );
+
   return (
     <div className="homePage">
       <PageMeta
@@ -63,7 +68,7 @@ export default function home() {
           </header>
 
           <div className="homeGrid">
-            {projects.slice(0, 3).map((p) => (
+            {featuredProjects.map((p) => (
               <ProjectCard key={p.title} {...p} />
             ))}
           </div>
